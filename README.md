@@ -13,3 +13,30 @@ Or, if you prefer this approach:
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
 </ItemGroup>
 
+
+## Completed Functionality
+
+The following core features have been implemented:
+
+* CRUD operations for todos.
+* Listing and filtering of todos by status.
+* Marking todos as complete.
+* Basic input validation (title, due date).
+* Responsive user interface with Bootstrap.
+
+## Challenges Encountered
+
+During development, the following challenges were faced:
+
+* Setting up Entity Framework Core and database migrations.
+* Implementing robust error handling in the API and frontend.
+* Ensuring consistent data validation between the client and server.
+* Troubleshooting  `fetch`  API calls and handling asynchronous operations.
+
+## Future Enhancements
+
+The following enhancements are planned for future development:
+
+* Additional filtering options (e.g., by priority, date range).
+* Sorting of todos (e.g., by due date, priority).
+* API documentation (e.g., using Swagger).
