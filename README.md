@@ -1,7 +1,11 @@
-o	How to run the project
+## How to run the project
+
 You will execute the program, and it will open in Swagger. You should remove '/swagger' from the URL, or you can directly use http://localhost:5142/index.html or https://localhost:7268/index.html to view the Todo List screen.
 
-o	Any setup requirementsThe .Net version uses for this project is 8.0.2
+## Any setup requirements	
+
+The .Net version uses for this project is 8.0.2
+
 Install these packages:
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
@@ -32,6 +36,7 @@ During development, the following challenges were faced:
 * Implementing robust error handling in the API and frontend.
 * Ensuring consistent data validation between the client and server.
 * Troubleshooting  `fetch`  API calls and handling asynchronous operations.
+* Connect the index screen with the application.
 
 ## Future Enhancements
 
